@@ -101,12 +101,12 @@ namespace haja
             int[,] mat = new int[9, 11];
             mat[0, 4] = 1; mat[0, 6] = 1; mat[0, 10] = 1;
             mat[1, 0] = 1; mat[1, 2] = 1; mat[1, 5] = 1; mat[1, 7] = 1;
-            mat[2, 1] = 1; mat[2, 3] = 1; mat[2, 8] = 1; mat[2, 9] = 1;
+            mat[2, 1] = 1; mat[2, 3] = 0; mat[2, 8] = 1; mat[2, 9] = 1;
             mat[3, 4] = 1; mat[3, 6] = 1; mat[3, 10] = 1;
             mat[4, 0] = 1; mat[4, 2] = 1; mat[4, 5] = 1; mat[4, 7] = 1; mat[4, 8] = 1;
             mat[5, 1] = 1; mat[5, 3] = 1; mat[5, 8] = 1; mat[5, 9] = 1;
             mat[6, 4] = 1; mat[6, 6] = 1; mat[6, 10] = 1;
-            mat[7, 0] = 1; mat[7, 2] = 1; mat[7, 5] = 1; mat[7, 7] = 1;
+            mat[7, 0] = 1; mat[7, 2] = 1; mat[7, 5] = 1; mat[7, 7] = 1; mat[7, 8] = 1;
             mat[8, 1] = 1; mat[8, 3] = 1; mat[8, 9] = 1;
 
             for (int i = 0; i < 8; i++)
@@ -138,11 +138,11 @@ namespace haja
         {
             for (int i = 0; i < mat.GetLength(0); i++)
             {
-                Console.Write('\n');
+                Console.Write("\n|");
                 for (int j = 0; j < mat.GetLength(1); j++)
                 {
 
-                    Console.Write(mat[i, j]);
+                    Console.Write(mat[i, j]+"|");
                 }
             }
         }
