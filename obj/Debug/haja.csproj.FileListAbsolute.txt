@@ -1,0 +1,6 @@
+c:\users\moham\documents\visual studio 2015\Projects\haja\haja\bin\Debug\haja.exe.config
+c:\users\moham\documents\visual studio 2015\Projects\haja\haja\obj\Debug\haja.csprojResolveAssemblyReference.cache
+c:\users\moham\documents\visual studio 2015\Projects\haja\haja\bin\Debug\haja.exe
+c:\users\moham\documents\visual studio 2015\Projects\haja\haja\bin\Debug\haja.pdb
+c:\users\moham\documents\visual studio 2015\Projects\haja\haja\obj\Debug\haja.exe
+c:\users\moham\documents\visual studio 2015\Projects\haja\haja\obj\Debug\haja.pdb
